@@ -8,4 +8,3 @@ def solution(array):
         if target - i in array[k:]:
             return(k - 1, array[k:].index(target - i) + k)
 
-print(solution(nums))
