@@ -7,3 +7,4 @@ def solution(array):
         k += 1
         if target - i in array[k:]:
             return(k - 1, array[k:].index(target - i) + k)
+
